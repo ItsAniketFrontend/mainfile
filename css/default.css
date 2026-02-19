@@ -757,7 +757,7 @@ input::placeholder, textarea::placeholder {
   left: 0;
   width: 100%;
   z-index: 99999; /* Keeps it above other elements */
-  background: #052730;
+  background: #000;
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
   border-bottom-right-radius: 20px;

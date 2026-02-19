@@ -625,6 +625,7 @@ width: 400px;
 
 /* Footer CSS */
 footer {
+  background: #000 !important;
   background-image: linear-gradient(180deg, #052730 0%, #1B1A1A 100%);
 }
 
