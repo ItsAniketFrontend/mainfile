@@ -495,15 +495,12 @@ Change the following styles to modify the appearance of the menu.
 
 .slick-slider {
   position: relative;
-
   display: block;
   box-sizing: border-box;
-
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
   -webkit-touch-callout: none;
   -khtml-user-select: none;
   -ms-touch-action: pan-y;
@@ -513,10 +510,8 @@ Change the following styles to modify the appearance of the menu.
 
 .slick-list {
   position: relative;
-
   display: block;
   overflow: hidden;
-
   margin: 0;
   padding: 0;
 }
@@ -543,7 +538,6 @@ Change the following styles to modify the appearance of the menu.
   position: relative;
   top: 0;
   left: 0;
-
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -552,7 +546,6 @@ Change the following styles to modify the appearance of the menu.
 .slick-track:before,
 .slick-track:after {
   display: table;
-
   content: '';
 }
 
@@ -567,7 +560,6 @@ Change the following styles to modify the appearance of the menu.
 .slick-slide {
   display: none;
   float: left;
-
   height: 100%;
   min-height: 1px;
 }
@@ -598,9 +590,7 @@ Change the following styles to modify the appearance of the menu.
 
 .slick-vertical .slick-slide {
   display: block;
-
   height: auto;
-
   border: 1px solid transparent;
 }
 
@@ -614,15 +604,12 @@ Change the following styles to modify the appearance of the menu.
 
 .slick-slider {
   position: relative;
-
   display: block;
   box-sizing: border-box;
-
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
   -webkit-touch-callout: none;
   -khtml-user-select: none;
   -ms-touch-action: pan-y;
@@ -632,10 +619,8 @@ Change the following styles to modify the appearance of the menu.
 
 .slick-list {
   position: relative;
-
   display: block;
   overflow: hidden;
-
   margin: 0;
   padding: 0;
 }
@@ -662,7 +647,6 @@ Change the following styles to modify the appearance of the menu.
   position: relative;
   top: 0;
   left: 0;
-
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -671,7 +655,6 @@ Change the following styles to modify the appearance of the menu.
 .slick-track:before,
 .slick-track:after {
   display: table;
-
   content: '';
 }
 
@@ -686,7 +669,7 @@ Change the following styles to modify the appearance of the menu.
 .slick-slide {
   display: none;
   float: left;
-
+  min-width: 400px !important;
   height: 100%;
   min-height: 1px;
 }
@@ -717,9 +700,7 @@ Change the following styles to modify the appearance of the menu.
 
 .slick-vertical .slick-slide {
   display: block;
-
   height: auto;
-
   border: 1px solid transparent;
 }
 
