@@ -1526,3 +1526,445 @@ footer {
   }
 }
 
+/* ================================
+   WRAPPER
+================================ */
+.nc-wrap{
+  background: #f7f9fb;
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+/* ================================
+   HEADINGS
+================================ */
+.nc-kicker{
+  font-size: 12px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #2A5D88;
+  font-weight: 800;
+}
+
+.nc-title{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(34px, 4.2vw, 60px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: #2A5D88;
+  margin: 8px 0 0;
+}
+
+.nc-h2{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(22px, 2.3vw, 34px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #2A5D88;
+}
+
+.nc-lead{
+  font-size: 15px;
+  line-height: 1.75;
+  color: #333;
+}
+
+/* ================================
+   BULLETS
+================================ */
+.nc-bullets{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.nc-bullets li{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.nc-icon{
+  width: 12px;
+  height: 12px;
+  margin-top: 7px;
+  border-radius: 3px;
+  background: #87C332;
+  box-shadow: 0 0 0 4px rgba(135,195,50,0.20);
+}
+
+/* ================================
+   PILLS
+================================ */
+.nc-pill{
+  font-weight: 800;
+  font-size: 12px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #2A5D88;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 8px 20px rgba(42,93,136,0.25);
+}
+
+.nc-pill.green{
+  background: #87C332;
+  color: #ffffff;
+}
+
+/* ================================
+   CARDS
+================================ */
+.nc-card{
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(42,93,136,0.10);
+  border: 1px solid rgba(42,93,136,0.10);
+  overflow: hidden;
+}
+
+.nc-card-top{
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.nc-tag{
+  font-size: 12px;
+  font-weight: 900;
+  padding: 7px 12px;
+  border-radius: 999px;
+  color: #ffffff;
+  background: #2A5D88;
+}
+
+.nc-tag.green{
+  background: #87C332;
+}
+
+.nc-mini{
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* ================================
+   IMAGE
+================================ */
+.nc-media{
+  position: relative;
+  background: #eef4f8;
+}
+
+.nc-img{
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 991px){
+  .nc-img{ height: 240px; }
+}
+
+.nc-zoom-badge{
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: #87C332;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: 900;
+  font-size: 12px;
+  box-shadow: 0 10px 24px rgba(135,195,50,0.25);
+}
+
+/* ================================
+   CARD FOOT
+================================ */
+.nc-card-foot{
+  padding: 16px 18px 20px;
+}
+
+.nc-foot-title{
+  font-weight: 900;
+  color: #2A5D88;
+}
+
+.nc-foot-sub{
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+/* ================================
+   SURFACE (LIFECYCLE)
+================================ */
+.nc-surface{
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 20px 50px rgba(42,93,136,0.10);
+  border: 1px solid rgba(42,93,136,0.10);
+}
+
+/* ================================
+   CHART
+================================ */
+.nc-chart{
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(42,93,136,0.12);
+  background: #ffffff;
+}
+
+.nc-chart-img{
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  background: #ffffff;
+}
+
+@media (max-width: 991px){
+  .nc-chart-img{ height: 240px; }
+}
+
+/* ================================
+   BENEFITS STACK
+================================ */
+.nc-stack{
+  display: grid;
+  gap: 14px;
+}
+
+.nc-benefit{
+  background: #f3faea;
+  border-radius: 16px;
+  padding: 20px;
+  border-left: 5px solid #87C332;
+  text-align: center;
+}
+
+.nc-benefit-title{
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2A5D88;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+}
+
+.nc-benefit-sub{
+  font-size: 13px;
+  color: #556;
+  margin-top: 6px;
+  line-height: 1.6;
+}
+
+.nc-plus{
+  font-size: 40px;
+  font-weight: 900;
+  color: #87C332;
+  text-align: center;
+}
+
+.nc-note{
+  font-size: 13px;
+  color: #333;
+}
+
+/* ================================
+   DISCLAIMER
+================================ */
+.nc-disclaimer{
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* ================================
+   CALLOUT
+================================ */
+.nc-callout{
+  background: #2A5D88;
+  color: #ffffff;
+  border-radius: 22px;
+  padding: 30px;
+  box-shadow: 0 25px 60px rgba(42,93,136,0.28);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nc-callout-title{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.nc-callout-sub{
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+.nc-metric{
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(255,255,255,0.45);
+}
+
+.nc-metric-num{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.nc-metric-lbl{
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.nc-cta{
+  margin-top: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: #87C332;
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 14px 30px rgba(135,195,50,0.28);
+  transition: transform 160ms ease;
+}
+.nc-cta:hover{
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+/* ================================
+   PROOF SECTION
+================================ */
+.nc-proof{
+  background: #2A5D88;
+  border-radius: 24px;
+  color: #ffffff;
+  box-shadow: 0 25px 60px rgba(42,93,136,0.28);
+}
+
+.nc-kicker.light{
+  color: rgba(255,255,255,0.85);
+}
+
+.nc-h2.light{
+  color: #ffffff;
+}
+
+.nc-lead.light{
+  color: rgba(255,255,255,0.92);
+}
+
+/* Badge */
+.nc-lab-badge{
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 18px;
+  padding: 14px 16px;
+  min-width: 220px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.nc-lab-top{
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  opacity: .9;
+}
+
+.nc-lab-mid{
+  font-weight: 900;
+  font-size: 34px;
+  margin: 4px 0 0;
+}
+
+.nc-lab-sub{
+  font-size: 12px;
+  opacity: .85;
+}
+
+.nc-white-card{
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+  text-align: center;
+}
+
+.nc-stat-num{
+  font-size: 38px;
+  font-weight: 900;
+  color: #2A5D88;
+}
+
+.nc-stat-lbl{
+  color: #444;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.nc-footnote{
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+/* ================================
+   CONTACT
+================================ */
+.nc-contact{
+  background: #ffffff;
+  border: 1px solid rgba(42,93,136,0.10);
+  border-radius: 22px;
+  padding: 26px 18px;
+  box-shadow: 0 15px 40px rgba(42,93,136,0.08);
+}
+
+.nc-contact-title{
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2A5D88;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.nc-contact-sub{
+  color: #6b7280;
+  margin: 0;
+}
+
+.nc-contact-btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: #2A5D88;
+  color: #ffffff;
+  font-weight: 900;
+  box-shadow: 0 12px 26px rgba(42,93,136,0.22);
+}
+.nc-contact-btn:hover{
+  color: #fff;
+}
+
+.nc-contact-btn.outline{
+  background: #ffffff;
+  color: #2A5D88;
+  border: 1px solid rgba(42,93,136,0.25);
+  box-shadow: none;
+}
